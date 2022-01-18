@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ktane-web-utils/static/css/main.95d767ea.css",
-    "main.js": "/ktane-web-utils/static/js/main.7e01baeb.js",
+    "main.js": "/ktane-web-utils/static/js/main.65185c95.js",
     "index.html": "/ktane-web-utils/index.html",
     "main.95d767ea.css.map": "/ktane-web-utils/static/css/main.95d767ea.css.map",
-    "main.7e01baeb.js.map": "/ktane-web-utils/static/js/main.7e01baeb.js.map"
+    "main.65185c95.js.map": "/ktane-web-utils/static/js/main.65185c95.js.map"
   },
   "entrypoints": [
     "static/css/main.95d767ea.css",
-    "static/js/main.7e01baeb.js"
+    "static/js/main.65185c95.js"
   ]
 }
