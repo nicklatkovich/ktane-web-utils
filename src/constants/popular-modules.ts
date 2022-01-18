@@ -9,7 +9,7 @@ export function getPopularModules(rnd?: MonoRandom): string[] {
     map.set(prior, shuffled(arr, rnd));
   }
   const res: string[] = [];
-  for (const prior of [...map.keys()].sort()) {
+  for (const prior of [...map.keys()].sort((a, b) => b - a)) {
     const arr = map.get(prior)!;
     res.push(...arr);
   }

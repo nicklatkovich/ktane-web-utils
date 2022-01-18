@@ -21,7 +21,7 @@ const buildList = (
   const set = new Set<string>();
   if (popular) {
     for (let i = 0; i < popularModules.length && set.size < COUNT; i++) {
-      if (rand(10, rnd) > 0) continue;
+      if (rand(100, rnd) > 0) continue;
       if (enabledModules && enabledModules[popularModules[i]]) continue;
       if (!allModules[popularModules[i]]) continue;
       set.add(popularModules[i]);
