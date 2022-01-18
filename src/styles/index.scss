@@ -1,0 +1,44 @@
+$super-color: #282d36;
+$cl1: #334;
+$cl2: #445;
+$cl3: #555;
+$cl-wh: #ccc;
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, Ubuntu, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $super-color;
+  color: $cl-wh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+button,
+.button {
+  background-color: $super-color;
+  border: solid 2px $cl-wh;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 16px;
+  color: $cl-wh;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+  background-color: $cl2;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
