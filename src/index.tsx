@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
 
 import "./styles/index.scss";
 import { AppComponent } from "./App";
@@ -12,7 +12,7 @@ import { store } from "./store";
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
       {/* <ConnectedRouter history={history}> */}
         <AppComponent />
       {/* </ConnectedRouter> */}

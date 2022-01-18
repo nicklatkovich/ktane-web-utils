@@ -1,12 +1,12 @@
 import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
 import { TypedUseSelectorHook, useDispatch, useSelector } from "react-redux";
-import { createBrowserHistory } from "history";
+import { createHashHistory } from "history";
 
 import { profileReducer } from "./modules/profile.module";
 import { connectRouter } from "connected-react-router";
 import { repoReducer } from "./modules/repo.module";
 
-export const history = createBrowserHistory();
+export const history = createHashHistory();
 
 export const store = configureStore({
   reducer: {

@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/ktane-web-utils/",
   "display": "standalone",
   "theme_color": "#cccccc",
   "background_color": "#282d36"
