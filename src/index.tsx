@@ -12,11 +12,13 @@ import { store } from "./store";
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
+      {/* <HashRouter> */}
       <BrowserRouter basename={process.env.PUBLIC_URL}>
       {/* <ConnectedRouter history={history}> */}
         <AppComponent />
       {/* </ConnectedRouter> */}
       </BrowserRouter>
+      {/* </HashRouter> */}
     </Provider>
   </React.StrictMode>,
   document.getElementById("root"),

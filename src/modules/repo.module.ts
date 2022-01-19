@@ -6,6 +6,7 @@ import { RootState } from "../store";
 export interface Module {
   ModuleID: string;
   Name: string;
+  Type: string;
 }
 
 export enum RepoStatus { INITIAL, LOADING, ERROR, LOADED }
@@ -45,9 +46,7 @@ export const load = createAsyncThunk(
     }
     try {
       const json = raw as { KtaneModules: Module[] };
-      const result: { [id: string]: Module } = {};
-      for (const module of json.KtaneModules) result[module.ModuleID] = module;
-      return result;
+      return Object.fromEntries(json.KtaneModules.map((module) => [module.ModuleID, module]));
     } catch (error) {
       console.error(error);
       return null;
