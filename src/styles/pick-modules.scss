@@ -1,3 +1,37 @@
-label {
-  user-select: none;
+.module-picker {
+  & > div {
+    display: flex;
+    & > :not(:last-child) { margin-right: 32px; }
+  }
+
+  & label {
+    user-select: none;
+  }
+
+  & .module-table {
+    & td {
+      padding: 8px;
+      &:last-child { min-width: 335px; }
+    }
+
+    & img {
+      width: 32px;
+      height: 32px;
+      margin: 0 2px;
+      &.manual { filter: brightness(0.6) contrast(2); }
+      &.steam { filter: invert(1) brightness(0.8); }
+      &.source { filter: invert(1) brightness(0.6); }
+      &.video { filter: brightness(2); }
+      &.void { opacity: 0.15; }
+    }
+
+    & .module-name {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    & .module-id {
+      font-size: 12px;
+    }
+  }
 }

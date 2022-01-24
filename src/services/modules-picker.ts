@@ -1,6 +1,7 @@
 import { MonoRandom } from "monorandom";
 
 import { getPopularModules } from "../constants/popular-modules";
+import { isVanillaModule } from "../constants/vanilla-modules";
 import { Module } from "../modules/repo.module";
 import { rand, shuffled } from "../utils";
 
@@ -10,6 +11,7 @@ export interface ModulePickerProps {
   prioritizePopular: boolean,
   ignoreModules: Set<string>,
   ignoreNeedy: boolean,
+  ignoreVanilla: boolean,
   rnd?: MonoRandom,
 }
 
@@ -17,6 +19,7 @@ export function pickModules(props: ModulePickerProps) {
   const popularModules = getPopularModules(props.rnd);
   const set = new Set<string>();
   const canPick = (moduleId: string): boolean => {
+    if (props.ignoreVanilla && isVanillaModule(moduleId)) return false;
     if (props.ignoreModules.has(moduleId)) return false;
     const module = props.allModules.get(moduleId);
     if (!module) return false;

@@ -7,6 +7,9 @@ export interface Module {
   ModuleID: string;
   Name: string;
   Type: string;
+  SteamID: string | null;
+  TutorialVideoUrl?: { default: string; [s: string]: string };
+  SourceUrl?: string;
 }
 
 export enum RepoStatus { INITIAL, LOADING, ERROR, LOADED }

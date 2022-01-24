@@ -1,5 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
+import { VANILLA_MODULES } from "../constants/vanilla-modules";
 import { RootState } from "../store";
 
 export interface ProfileState {
@@ -50,22 +51,7 @@ export const upload = createAsyncThunk(
         const json = JSON.parse(text);
         for (const moduleId of json.EnabledList) enabledModules.add(moduleId);
       }));
-      for (const vanilla of [
-        "BigButton",
-        "Keypad",
-        "Maze",
-        "Wires",
-        "Memory",
-        "Password",
-        "Simon",
-        "Venn",
-        "Morse",
-        "WireSequence",
-        "WhosOnFirst",
-        "NeedyVentGas",
-        "NeedyKnob",
-        "NeedyCapacitor",
-      ]) enabledModules.add(vanilla);
+      for (const vanilla of VANILLA_MODULES) enabledModules.add(vanilla);
       const modulesCount = enabledModules.size;
       return { name, enabledModules: Object.fromEntries([...enabledModules].map((v) => [v, true])), modulesCount };
     } catch (error) {
