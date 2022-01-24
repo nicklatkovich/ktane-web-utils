@@ -85,16 +85,16 @@ export const PickModulesPage: React.FC = () => {
             <input type="checkbox" id="popular-checkbox" checked={popular} onChange={() => setPopular(!popular)} />
             <label htmlFor="popular-checkbox">Prioritize popular modules (2022-01-16)</label>
           </div>
-          <div>
+          <div className="flex">
             <input
               type="checkbox"
               id="use-current-day-checkbox"
               checked={useCurrentDay}
               onChange={() => setUseCurrentDay(!useCurrentDay)}
             />
-            <label htmlFor="use-current-day-checkbox">
-              Use current day as seed ({new Date((today - 1) * DAY).toISOString().slice(0, 10)}.
-              Next update in {timeToNextUpdate})
+            <label htmlFor="use-current-day-checkbox" className="flex flex-wrap vert-space-between-2px">
+              <span>Use current day as seed</span>
+              <span>({new Date((today - 1) * DAY).toISOString().slice(0, 10)}. Next update in {timeToNextUpdate})</span>
             </label>
           </div>
           <div>
@@ -115,7 +115,7 @@ export const PickModulesPage: React.FC = () => {
             />
             <label htmlFor="ignore-vanilla-checkbox">Ignore vanilla</label>
           </div>
-          <div style={{ height: 32 }}>
+          <div className="flex" style={{ height: 35, marginBottom: 16 }}>
             {enabledModules && Object.keys(enabledModules).length > 0 ? <>
               <input
                 type="checkbox"

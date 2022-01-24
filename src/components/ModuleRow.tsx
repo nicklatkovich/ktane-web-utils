@@ -14,30 +14,36 @@ export const ModuleRowComponent: React.FC<{ moduleId: string }> = (props) => {
   return (
     <tr>
       <td className="no-select">
-        <ExternalLink href={manualLink}>
-          <img className="manual" src="https://ktane.timwi.de/HTML/img/manual.png" alt="Manual" />
-        </ExternalLink>
-        {!module.SteamID
-          ? <img className="steam void" src="https://ktane.timwi.de/HTML/img/steam-workshop-item.png" alt="Steam" />
-          : (
-            <ExternalLink href={`https://steamcommunity.com/sharedfiles/filedetails/?id=${module.SteamID}`}>
-              <img className="steam" src="https://ktane.timwi.de/HTML/img/steam-workshop-item.png" alt="Steam" />
+        <div className="module-links">
+          <div>
+            <ExternalLink href={manualLink}>
+              <img className="manual" src="https://ktane.timwi.de/HTML/img/manual.png" alt="Manual" />
             </ExternalLink>
-          )}
-        {!module.SourceUrl
-          ? <img className="source void" src="https://ktane.timwi.de/HTML/img/unity.png" alt="No Source" />
-          : (
-            <ExternalLink href={module.SourceUrl}>
-              <img className="source" src="https://ktane.timwi.de/HTML/img/unity.png" alt="Source" />
-            </ExternalLink>
-          )}
-        {!module.TutorialVideoUrl
-          ? <img className="video void" src="https://ktane.timwi.de/HTML/img/video.png" alt="No Tutorials" />
-          : (
-            <ExternalLink href={module.TutorialVideoUrl.default}>
-              <img className="video" src="https://ktane.timwi.de/HTML/img/video.png" alt="Video" />
-            </ExternalLink>
-          )}
+            {!module.SteamID
+              ? <img className="steam void" src="https://ktane.timwi.de/HTML/img/steam-workshop-item.png" alt="Steam" />
+              : (
+                <ExternalLink href={`https://steamcommunity.com/sharedfiles/filedetails/?id=${module.SteamID}`}>
+                  <img className="steam" src="https://ktane.timwi.de/HTML/img/steam-workshop-item.png" alt="Steam" />
+                </ExternalLink>
+              )}
+          </div>
+          <div>
+            {!module.SourceUrl
+              ? <img className="source void" src="https://ktane.timwi.de/HTML/img/unity.png" alt="No Source" />
+              : (
+                <ExternalLink href={module.SourceUrl}>
+                  <img className="source" src="https://ktane.timwi.de/HTML/img/unity.png" alt="Source" />
+                </ExternalLink>
+              )}
+            {!module.TutorialVideoUrl
+              ? <img className="video void" src="https://ktane.timwi.de/HTML/img/video.png" alt="No Tutorials" />
+              : (
+                <ExternalLink href={module.TutorialVideoUrl.default}>
+                  <img className="video" src="https://ktane.timwi.de/HTML/img/video.png" alt="Video" />
+                </ExternalLink>
+              )}
+          </div>
+        </div>
       </td>
       <td>
         {/* <a className="module-name" href={link} target="_blank" rel="noopener noreferrer">{module.Name}</a> */}

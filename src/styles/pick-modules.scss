@@ -1,17 +1,20 @@
 .module-picker {
   & > div {
     display: flex;
-    & > :not(:last-child) { margin-right: 32px; }
+    flex-wrap: wrap-reverse;
+    margin: -16px;
+    & > * { margin: 16px; }
   }
 
-  & label {
-    user-select: none;
-  }
+  & label { user-select: none; }
 
   & .module-table {
     & td {
       padding: 8px;
-      &:last-child { min-width: 335px; }
+      &:last-child {
+        width: 335px;
+        max-width: 100%;
+      }
     }
 
     & img {
@@ -28,10 +31,17 @@
     & .module-name {
       font-size: 18px;
       font-weight: bold;
+      // overflow-wrap: break-word;
     }
 
-    & .module-id {
-      font-size: 12px;
+    & .module-id { font-size: 12px; }
+
+    & .module-links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      & > div { min-width: max-content; }
     }
   }
 }

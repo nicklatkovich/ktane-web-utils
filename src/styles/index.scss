@@ -44,16 +44,15 @@ a {
   color: inherit;
 }
 
-table {
-  border-collapse: collapse;
-}
+table { border-collapse: collapse; }
+table td { border: solid 1px #445; }
+.no-select { user-select: none; }
+.flex { display: flex; align-items: center; }
+.flex-wrap { flex-wrap: wrap; }
 
-table td {
-  border: solid 1px #445;
-}
-
-.no-select {
-  user-select: none;
+.vert-space-between-2px {
+  margin: 0 -2px;
+  & > * { margin: 0 2px; }
 }
 
 .flex { display: flex; }
