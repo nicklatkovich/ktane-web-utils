@@ -1,4 +1,5 @@
 import React, { useMemo } from "react";
+import { getPopularity } from "../constants/popular-modules";
 
 import { Module, repoSelectors } from "../modules/repo.module";
 import { useAppSelector } from "../store";
@@ -9,6 +10,7 @@ export const ModuleRowComponent: React.FC<{ moduleId: string }> = (props) => {
 
   const module: Module | undefined = useMemo(() => allModulesState[props.moduleId], [props.moduleId, allModulesState]);
   const manualLink = useMemo(() => `https://ktane.timwi.de/HTML/${module?.Name}.html`, [module]);
+  const popularity = useMemo(() => getPopularity(props.moduleId), [props.moduleId]);
 
   if (!module) return null;
   return (
@@ -46,10 +48,16 @@ export const ModuleRowComponent: React.FC<{ moduleId: string }> = (props) => {
         </div>
       </td>
       <td>
-        {/* <a className="module-name" href={link} target="_blank" rel="noopener noreferrer">{module.Name}</a> */}
-        <span className="module-name">{module.Name}</span>
-        <br />
-        <span className="module-id">ID: {module.ModuleID}</span>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+          <div>
+            <span className="module-name">{module.Name}</span>
+            <br />
+            <span className="module-id">ID: {module.ModuleID}</span>
+          </div>
+          <div>
+            Popularity: {(popularity * 100).toFixed(2)}%
+          </div>
+        </div>
       </td>
     </tr>
   )

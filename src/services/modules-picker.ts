@@ -13,6 +13,7 @@ export interface ModulePickerProps {
   ignoreNeedy: boolean,
   ignoreVanilla: boolean,
   rnd?: MonoRandom,
+  randomness?: number,
 }
 
 export function pickModules(props: ModulePickerProps) {
@@ -29,7 +30,7 @@ export function pickModules(props: ModulePickerProps) {
   }
   if (props.prioritizePopular) {
     for (let i = 0; i < popularModules.length && set.size < props.count; i++) {
-      if (rand(100, props.rnd) > 0) continue;
+      if (rand(props.randomness ?? 100, props.rnd) > 0) continue;
       const moduleId = popularModules[i];
       if (!canPick(moduleId)) continue;
       set.add(moduleId);

@@ -16,6 +16,11 @@ export function getPopularModules(rnd?: MonoRandom): string[] {
   return res;
 }
 
+export function getPopularity(modId: string): number {
+  const preres = popularModulesMap.get(modId) ?? 0;
+  return preres / popularModules[0][1];
+}
+
 export const popularModules: [string, number][] = [
   ["BlackHoleModule", 127],
   ["ChessModule", 121],
@@ -1360,3 +1365,5 @@ export const popularModules: [string, number][] = [
   ["yModule", 1],
   ["zeroZero", 1],
 ];
+
+export const popularModulesMap = new Map(popularModules);

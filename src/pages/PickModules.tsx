@@ -9,6 +9,7 @@ import { ModulePickerProps, pickModules } from "../services/modules-picker";
 import { getDayIndex, rand } from "../utils";
 import { DAY, HOUR, MINUTE, SECOND } from "../constants";
 import { ModuleRowComponent } from "../components/ModuleRow";
+import { getPopularity } from "../constants/popular-modules";
 
 function getUpdateTime(now: number): number {
   return now + 12 * HOUR;
@@ -20,6 +21,7 @@ export const PickModulesPage: React.FC = () => {
   const enabledModules = useAppSelector(profileSelectors.getEnabledModules);
 
   const [popular, setPopular] = useState(true);
+  const [randomness, setRandomness] = useState(true);
   const [list, setList] = useState<string[]>([]);
   const [useCurrentDay, setUseCurrentDay] = useState(true);
   const [ignoreProfiled, setIgnoreProfiled] = useState(true);
@@ -49,6 +51,7 @@ export const PickModulesPage: React.FC = () => {
     ignoreNeedy,
     ignoreVanilla,
     rnd: new MonoRandom(useCurrentDay ? today : seed),
+    randomness: randomness ? 100 : 1,
   }) as ModulePickerProps, [
     allModules,
     popular,
@@ -58,6 +61,7 @@ export const PickModulesPage: React.FC = () => {
     useCurrentDay,
     today,
     seed,
+    randomness,
   ]);
   const dmg = useMemo(() => ["mode:zen", ...list].join("\n"), [list]);
 
@@ -77,13 +81,26 @@ export const PickModulesPage: React.FC = () => {
       <div>
         <table className="module-table">
           <tbody>
-            {list.map((moduleId) => <ModuleRowComponent moduleId={moduleId} key={moduleId} />)}
+            {list.sort((a, b) => getPopularity(b) - getPopularity(a)).map((moduleId) => (
+              <ModuleRowComponent moduleId={moduleId} key={moduleId} />
+            ))}
           </tbody>
         </table>
         <div>
           <div>
             <input type="checkbox" id="popular-checkbox" checked={popular} onChange={() => setPopular(!popular)} />
             <label htmlFor="popular-checkbox">Prioritize popular modules (2022-01-16)</label>
+            {!popular ? null : (
+              <>
+                <input
+                  type="checkbox"
+                  id="randomness-checkbox"
+                  checked={randomness}
+                  onChange={() => setRandomness(!randomness)}
+                />
+                <label htmlFor="randomness-checkbox">Enable random</label>
+              </>
+            )}
           </div>
           <div className="flex">
             <input
@@ -146,6 +163,7 @@ export const PickModulesPage: React.FC = () => {
     timeToNextUpdate,
     today,
     dmg,
+    randomness,
   ]);
   return renderer;
 };
