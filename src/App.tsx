@@ -7,6 +7,7 @@ import { ProfileUploader } from "./components/ProfileUploader";
 import { profileActions, profileSelectors } from "./modules/profile.module";
 import { repoActions, repoSelectors, RepoStatus } from "./modules/repo.module";
 import { HomePage } from "./pages/Home";
+import { ModSettingsPage } from "./pages/ModSettings";
 import { PickModulesPage } from "./pages/PickModules";
 import { useAppDispatch, useAppSelector } from "./store";
 
@@ -36,6 +37,7 @@ export const AppComponent: React.FC = () => {
       </div>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/mod-settings" element={<ModSettingsPage />} />
         <Route path="/pick-modules" element={<PickModulesPage />} />
         <Route path="*" element={<div>(Not Found)</div>} />
       </Routes>

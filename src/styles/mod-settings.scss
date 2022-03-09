@@ -1,0 +1,20 @@
+.mod-settings-page {
+  & .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+    & > * {
+      margin: 4px;
+    }
+  }
+  & input {
+    width: 656px;
+  }
+  & .path {
+    background-color: #555;
+    padding: 2px;
+    border: solid 1px #bbb;
+    color: #bbb;
+  }
+}
