@@ -19,6 +19,7 @@ export const PickModulesPage: React.FC = () => {
   const repoStatus = useAppSelector(repoSelectors.getStatus);
   const allModulesState = useAppSelector(repoSelectors.getModules);
   const enabledModules = useAppSelector(profileSelectors.getEnabledModules);
+  const disabledModules = useAppSelector(profileSelectors.getDisabledModules);
 
   const [popular, setPopular] = useState(true);
   const [randomness, setRandomness] = useState(true);
@@ -39,10 +40,13 @@ export const PickModulesPage: React.FC = () => {
     return `now!`;
   }, [today, now]);
   const allModules = useMemo(() => new Map(Object.entries(allModulesState)), [allModulesState]);
-  const ignoreModules = useMemo(
-    () => new Set(enabledModules && ignoreProfiled ? Object.keys(enabledModules) : null),
-    [enabledModules, ignoreProfiled],
-  );
+  const ignoreModules = useMemo(() => {
+    const result = new Set(enabledModules && ignoreProfiled ? Object.keys(enabledModules) : null);
+    if (disabledModules) {
+      for (const mId of Object.keys(disabledModules)) result.delete(mId);
+    }
+    return result;
+  }, [enabledModules, disabledModules, ignoreProfiled]);
   const deps = useMemo(() => ({
     allModules,
     count: 11,

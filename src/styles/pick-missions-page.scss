@@ -1,0 +1,21 @@
+.pick-missions-page {
+  & > .ignore-list {
+    & > * {
+      margin: 0 4px;
+    }
+    & > input {
+      padding: 8px;
+    }
+    margin: 16px;
+  }
+  & td {
+    padding: 8px;
+    &:first-child {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    &:not(:first-child) {
+      text-align: center;
+    }
+  }
+}

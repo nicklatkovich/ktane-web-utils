@@ -57,3 +57,10 @@ table td { border: solid 1px #445; }
 
 .flex { display: flex; }
 .space-between :not(:last-child) { margin-right: 8px; }
+
+input[type=text] {
+  background-color: $cl-wh;
+  color: black;
+  border: solid 2px $cl3;
+  border-radius: 8px;
+}

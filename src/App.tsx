@@ -10,6 +10,7 @@ import { HomePage } from "./pages/Home";
 import { ModSettingsPage } from "./pages/ModSettings";
 import { PickModulesPage } from "./pages/PickModules";
 import { useAppDispatch, useAppSelector } from "./store";
+import { PickMissionsPage } from "./pages/PickMissions";
 
 export const AppComponent: React.FC = () => {
   const repoStatus = useAppSelector(repoSelectors.getStatus);
@@ -38,6 +39,7 @@ export const AppComponent: React.FC = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/mod-settings" element={<ModSettingsPage />} />
+        <Route path="/pick-missions" element={<PickMissionsPage />} />
         <Route path="/pick-modules" element={<PickModulesPage />} />
         <Route path="*" element={<div>(Not Found)</div>} />
       </Routes>
