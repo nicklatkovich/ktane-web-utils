@@ -6,6 +6,7 @@ import { challenges } from "../constants/challenges";
 import { profileSelectors } from "../modules/profile.module";
 import { repoSelectors, RepoStatus } from "../modules/repo.module";
 import { useAppSelector } from "../store";
+import { LAST_CHALLENGE_UPDATE } from "../constants";
 
 export const PickMissionsPage: React.FC = () => {
   const repoStatus = useAppSelector(repoSelectors.getStatus);
@@ -58,7 +59,7 @@ export const PickMissionsPage: React.FC = () => {
           <button onClick={() => setCompletersAnd(!completersAnd)}>{completersAnd ? "AND" : "OR"}</button>
         </>}
       </div>
-      <div>Last update: 2022-01-16</div>
+      <div>Last update: {new Date(LAST_CHALLENGE_UPDATE * 1e3).toISOString().slice(0, 10)}</div>
       <table>
         <tbody>
           <tr>

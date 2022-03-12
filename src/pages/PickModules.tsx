@@ -7,7 +7,7 @@ import { repoSelectors, RepoStatus } from "../modules/repo.module";
 import { useAppSelector } from "../store";
 import { ModulePickerProps, pickModules } from "../services/modules-picker";
 import { getDayIndex, rand } from "../utils";
-import { DAY, HOUR, MINUTE, SECOND } from "../constants";
+import { DAY, HOUR, LAST_CHALLENGE_UPDATE, MINUTE, SECOND } from "../constants";
 import { ModuleRowComponent } from "../components/ModuleRow";
 import { getPopularity } from "../constants/popular-modules";
 
@@ -93,7 +93,9 @@ export const PickModulesPage: React.FC = () => {
         <div>
           <div>
             <input type="checkbox" id="popular-checkbox" checked={popular} onChange={() => setPopular(!popular)} />
-            <label htmlFor="popular-checkbox">Prioritize popular modules (2022-01-16)</label>
+            <label htmlFor="popular-checkbox">
+              Prioritize popular modules ({new Date(LAST_CHALLENGE_UPDATE * 1e3).toISOString().slice(0, 10)})
+            </label>
             {!popular ? null : (
               <>
                 <input
