@@ -610,8 +610,9 @@ export const challenges: Challenge[] = [{
     "Burniel",
     "Vincology",
     "Garuda",
+    "TwitchPlays",
   ],
-  completions: 26,
+  completions: 27,
 }, {
   name: "4H",
   modules: [
@@ -678,8 +679,9 @@ export const challenges: Challenge[] = [{
     "Benjamin",
     "Burniel",
     "Dicey",
+    "TwitchPlays",
   ],
-  completions: 7,
+  completions: 8,
 }, {
   name: "50/50",
   modules: [
@@ -782,8 +784,11 @@ export const challenges: Challenge[] = [{
     "Logic",
     "SuperlogicModule",
   ],
-  completers: ["LegendWilleh"],
-  completions: 1,
+  completers: [
+    "LegendWilleh",
+    "TwitchPlays",
+  ],
+  completions: 2,
 }, {
   name: "74 Modules",
   modules: [
@@ -840,8 +845,9 @@ export const challenges: Challenge[] = [{
     "Edan",
     "ManiaMate",
     "Benjamin",
+    "TwitchPlays",
   ],
-  completions: 3,
+  completions: 4,
 }, {
   name: "=1/0",
   modules: [
@@ -1292,8 +1298,9 @@ export const challenges: Challenge[] = [{
     "Vincology",
     "DieBestenRutschen",
     "GiveMeHeals",
+    "TwitchPlays",
   ],
-  completions: 18,
+  completions: 19,
 }, {
   name: "A Way Out",
   modules: [
@@ -1596,8 +1603,9 @@ export const challenges: Challenge[] = [{
     "Edan",
     "ManiaMate",
     "Garuda",
+    "TwitchPlays",
   ],
-  completions: 6,
+  completions: 7,
 }, {
   name: "Adapted Swan Hell",
   modules: [
@@ -1673,8 +1681,9 @@ export const challenges: Challenge[] = [{
     "aGood_Usernam3",
     "mcd",
     "Danny",
+    "TwitchPlays",
   ],
-  completions: 30,
+  completions: 32,
 }, {
   name: "Adjacency Matrix",
   modules: [
@@ -2033,8 +2042,9 @@ export const challenges: Challenge[] = [{
     "Puddle",
     "Benjamin",
     "Bianca",
+    "TwitchPlays",
   ],
-  completions: 13,
+  completions: 14,
 }, {
   name: "Anamnesis",
   modules: [
@@ -2301,8 +2311,9 @@ export const challenges: Challenge[] = [{
     "Fish",
     "SillyPuppy",
     "Crazycaleb",
+    "TwitchPlays",
   ],
-  completions: 7,
+  completions: 8,
 }, {
   name: "Aries",
   modules: [
@@ -2525,8 +2536,9 @@ export const challenges: Challenge[] = [{
     "Deaf",
     "Garuda",
     "Tepel",
+    "TwitchPlays",
   ],
-  completions: 13,
+  completions: 14,
 }, {
   name: "Asmir's 47",
   modules: [
@@ -2748,8 +2760,9 @@ export const challenges: Challenge[] = [{
     "Edan",
     "Dicey",
     "Garuda",
+    "TwitchPlays",
   ],
-  completions: 5,
+  completions: 6,
 }, {
   name: "The Atomic",
   modules: [
@@ -3256,8 +3269,9 @@ export const challenges: Challenge[] = [{
     "bioplay",
     "Crazycaleb",
     "Fish",
+    "TwitchPlays",
   ],
-  completions: 5,
+  completions: 6,
 }, {
   name: "Balance: Unlimited",
   modules: [
@@ -3643,8 +3657,9 @@ export const challenges: Challenge[] = [{
     "Chestnut",
     "Edan",
     "Draket",
+    "TwitchPlays",
   ],
-  completions: 5,
+  completions: 6,
 }, {
   name: "Bepis",
   modules: [
@@ -4114,8 +4129,9 @@ export const challenges: Challenge[] = [{
     "LegendWilleh",
     "Zefod",
     "Burniel",
+    "TwitchPlays",
   ],
-  completions: 5,
+  completions: 6,
 }, {
   name: "BlvdBroken's Bomb of Bangers (Climb)",
   modules: [
@@ -4753,8 +4769,9 @@ export const challenges: Challenge[] = [{
     "Chestnut",
     "Fish",
     "Ulv",
+    "TwitchPlays",
   ],
-  completions: 21,
+  completions: 22,
 }, {
   name: "Brainer Power",
   modules: [
@@ -5071,8 +5088,9 @@ export const challenges: Challenge[] = [{
     "Burniel",
     "Benjamin",
     "Bianca",
+    "TwitchPlays",
   ],
-  completions: 3,
+  completions: 4,
 }, {
   name: "Button Hell",
   modules: [
@@ -5220,8 +5238,9 @@ export const challenges: Challenge[] = [{
     "et al.",
     "VFlyer",
     "Lily",
+    "TwitchPlays",
   ],
-  completions: 28,
+  completions: 29,
 }, {
   name: "Can You Do The Gate Jump?",
   modules: [
@@ -5337,8 +5356,9 @@ export const challenges: Challenge[] = [{
     "Deaf",
     "Garuda",
     "LegendWilleh",
+    "TwitchPlays",
   ],
-  completions: 3,
+  completions: 4,
 }, {
   name: "Cash In",
   modules: [
@@ -5573,8 +5593,9 @@ export const challenges: Challenge[] = [{
     "Dicey",
     "ManiaMate",
     "Rexkix",
+    "TwitchPlays",
   ],
-  completions: 3,
+  completions: 4,
 }, {
   name: "CentuRYAN",
   modules: [
@@ -5681,8 +5702,9 @@ export const challenges: Challenge[] = [{
     "Espik",
     "Danny",
     "Chestnut",
+    "TwitchPlays",
   ],
-  completions: 32,
+  completions: 33,
 }, {
   name: "Centurion",
   modules: [
@@ -5849,8 +5871,10 @@ export const challenges: Challenge[] = [{
     "Pokemine",
     "Asew",
     "Sam Porter Bridges",
+    "TwitchPlays",
+    "Schulzer",
   ],
-  completions: 40,
+  completions: 47,
 }, {
   name: "Cerberus",
   modules: [
@@ -5976,8 +6000,9 @@ export const challenges: Challenge[] = [{
     "Pokemine",
     "Senri",
     "Burniel",
+    "TwitchPlays",
   ],
-  completions: 14,
+  completions: 15,
 }, {
   name: "Chalenj Bmob",
   modules: [
@@ -6053,8 +6078,9 @@ export const challenges: Challenge[] = [{
     "Želvík",
     "Asmir",
     "Senri",
+    "TwitchPlays",
   ],
-  completions: 12,
+  completions: 13,
 }, {
   name: "Charlie Sierra",
   modules: [
@@ -6158,8 +6184,11 @@ export const challenges: Challenge[] = [{
     "wire",
     "X01",
   ],
-  completers: ["LegendWilleh"],
-  completions: 1,
+  completers: [
+    "LegendWilleh",
+    "TwitchPlays",
+  ],
+  completions: 2,
 }, {
   name: "Chegginator",
   modules: [
@@ -6336,8 +6365,9 @@ export const challenges: Challenge[] = [{
     "Xorote",
     "Dicey",
     "et al.",
+    "TwitchPlays",
   ],
-  completions: 2,
+  completions: 3,
 }, {
   name: "Circles",
   modules: [
@@ -6494,8 +6524,9 @@ export const challenges: Challenge[] = [{
     "TasThing",
     "Garuda",
     "Asew",
+    "TwitchPlays",
   ],
-  completions: 8,
+  completions: 9,
 }, {
   name: "Climb To The Climb",
   modules: [
@@ -6724,8 +6755,9 @@ export const challenges: Challenge[] = [{
     "Megum",
     "Burniel",
     "Zefod",
+    "TwitchPlays",
   ],
-  completions: 3,
+  completions: 4,
 }, {
   name: "Color Hell",
   modules: [
@@ -6915,8 +6947,9 @@ export const challenges: Challenge[] = [{
     "Espik",
     "Burniel",
     "Chestnut",
+    "TwitchPlays",
   ],
-  completions: 5,
+  completions: 6,
 }, {
   name: "Concluding Collection",
   modules: [
@@ -7075,8 +7108,17 @@ export const challenges: Challenge[] = [{
     "Simon",
     "NeedyCapacitor",
   ],
-  completers: ["LegendWilleh"],
-  completions: 1,
+  completers: [
+    "LegendWilleh",
+    "Draket",
+    "ManiaMate",
+    "Dicey",
+    "Vincology",
+    "Zefod",
+    "Edan",
+    "Fish",
+  ],
+  completions: 4,
 }, {
   name: "Coordination",
   modules: [
@@ -7233,8 +7275,9 @@ export const challenges: Challenge[] = [{
     "ManiaMate",
     "Procyon",
     "LegendWilleh",
+    "TwitchPlays",
   ],
-  completions: 4,
+  completions: 5,
 }, {
   name: "Core's Entrance",
   modules: [
@@ -7303,8 +7346,9 @@ export const challenges: Challenge[] = [{
     "Miki2003pl",
     "Puddle",
     "RandomChamps",
+    "TwitchPlays",
   ],
-  completions: 11,
+  completions: 12,
 }, {
   name: "Crazyturion",
   modules: [
@@ -7413,8 +7457,9 @@ export const challenges: Challenge[] = [{
   completers: [
     "Edan",
     "Crazycaleb",
+    "TwitchPlays",
   ],
-  completions: 2,
+  completions: 3,
 }, {
   name: "Crescendo",
   modules: [
@@ -7891,8 +7936,11 @@ export const challenges: Challenge[] = [{
     "boozlesnap",
     "eightTilesPanic",
   ],
-  completers: ["LegendWilleh"],
-  completions: 1,
+  completers: [
+    "LegendWilleh",
+    "TwitchPlays",
+  ],
+  completions: 2,
 }, {
   name: "Deaf's Hell",
   modules: [
@@ -8059,8 +8107,9 @@ export const challenges: Challenge[] = [{
     "Diffuse",
     "aGood_Usernam3",
     "Dicey",
+    "TwitchPlays",
   ],
-  completions: 4,
+  completions: 5,
 }, {
   name: "Defuser's Headache",
   modules: [
@@ -8992,8 +9041,9 @@ export const challenges: Challenge[] = [{
     "bioplay",
     "GreenPower",
     "Joh_v_Relion",
+    "TwitchPlays",
   ],
-  completions: 38,
+  completions: 39,
 }, {
   name: "Dream Stans Are Coming To Your House",
   modules: [
@@ -9228,8 +9278,9 @@ export const challenges: Challenge[] = [{
     "TracksJosh",
     "Chestnut",
     "Burniel",
+    "TwitchPlays",
   ],
-  completions: 34,
+  completions: 35,
 }, {
   name: "Easy Challenge",
   modules: [
@@ -9399,8 +9450,9 @@ export const challenges: Challenge[] = [{
     "RJ",
     "Bianca",
     "Benjamin",
+    "TwitchPlays",
   ],
-  completions: 117,
+  completions: 119,
 }, {
   name: "Effeminator",
   modules: [
@@ -9476,8 +9528,9 @@ export const challenges: Challenge[] = [{
     "Biggie",
     "Draket",
     "Millie-Rose",
+    "TwitchPlays",
   ],
-  completions: 10,
+  completions: 11,
 }, {
   name: "Eh... Not So Bad?",
   modules: [
@@ -9544,8 +9597,9 @@ export const challenges: Challenge[] = [{
     "Burniel",
     "Millie-Rose",
     "Cookiepocalypse",
+    "TwitchPlays",
   ],
-  completions: 7,
+  completions: 8,
 }, {
   name: "Eldoraigne",
   modules: [
@@ -9850,8 +9904,9 @@ export const challenges: Challenge[] = [{
     "SillyPuppy",
     "Fish",
     "Xorote",
+    "TwitchPlays",
   ],
-  completions: 18,
+  completions: 19,
 }, {
   name: "Em-Cee-A-Turion",
   modules: [
@@ -9943,8 +9998,9 @@ export const challenges: Challenge[] = [{
     "Burniel",
     "Edan",
     "LegendWilleh",
+    "TwitchPlays",
   ],
-  completions: 2,
+  completions: 3,
 }, {
   name: "Emasculator",
   modules: [
@@ -10088,8 +10144,9 @@ export const challenges: Challenge[] = [{
     "bioplay",
     "DieBestenRutschen",
     "GiveMeHeals",
+    "TwitchPlays",
   ],
-  completions: 14,
+  completions: 15,
 }, {
   name: "Enemy: Endanger eXish",
   modules: [
@@ -10422,8 +10479,9 @@ export const challenges: Challenge[] = [{
     "Bianca",
     "Benjamin",
     "Burniel",
+    "TwitchPlays",
   ],
-  completions: 4,
+  completions: 5,
 }, {
   name: "Epidox",
   modules: [
@@ -10674,8 +10732,9 @@ export const challenges: Challenge[] = [{
     "bioplay",
     "Ulv",
     "DieBestenRutschen",
+    "TwitchPlays",
   ],
-  completions: 33,
+  completions: 34,
 }, {
   name: "Experienced Group",
   modules: [
@@ -10774,8 +10833,9 @@ export const challenges: Challenge[] = [{
     "StormBlessed",
     "Joh_v_Relion",
     "Crazycaleb",
+    "TwitchPlays",
   ],
-  completions: 18,
+  completions: 19,
 }, {
   name: "Extraction (Pt. 1)",
   modules: [
@@ -10869,8 +10929,9 @@ export const challenges: Challenge[] = [{
     "Benjamin",
     "Burniel",
     "Crazycaleb",
+    "TwitchPlays",
   ],
-  completions: 8,
+  completions: 9,
 }, {
   name: "Extraction (Pt. 2)",
   modules: [
@@ -11132,8 +11193,9 @@ export const challenges: Challenge[] = [{
     "Xorote",
     "Crazycaleb",
     "Diffuse",
+    "TwitchPlays",
   ],
-  completions: 4,
+  completions: 5,
 }, {
   name: "Fang's 47 Too Two",
   modules: [
@@ -11193,8 +11255,9 @@ export const challenges: Challenge[] = [{
     "Diffuse",
     "LegendWilleh",
     "Edan",
+    "TwitchPlays",
   ],
-  completions: 4,
+  completions: 5,
 }, {
   name: "Fang's 47 Too",
   modules: [
@@ -11251,8 +11314,9 @@ export const challenges: Challenge[] = [{
     "Puddle",
     "Xorote",
     "Diffuse",
+    "TwitchPlays",
   ],
-  completions: 3,
+  completions: 4,
 }, {
   name: "Fang's 47",
   modules: [
@@ -11328,8 +11392,9 @@ export const challenges: Challenge[] = [{
     "Puddle",
     "Xorote",
     "Dicey",
+    "TwitchPlays",
   ],
-  completions: 5,
+  completions: 6,
 }, {
   name: "Fate",
   modules: [
@@ -11447,8 +11512,9 @@ export const challenges: Challenge[] = [{
     "Fish",
     "ConManAU",
     "Burniel",
+    "TwitchPlays",
   ],
-  completions: 10,
+  completions: 11,
 }, {
   name: "Femboy Balls",
   modules: [
@@ -11573,8 +11639,9 @@ export const challenges: Challenge[] = [{
     "LegendWilleh",
     "Xorote",
     "Diffuse",
+    "TwitchPlays",
   ],
-  completions: 3,
+  completions: 4,
 }, {
   name: "Finale II",
   modules: [
@@ -11790,8 +11857,9 @@ export const challenges: Challenge[] = [{
     "Megum",
     "Benjamin",
     "MásQuéÉlite",
+    "TwitchPlays",
   ],
-  completions: 5,
+  completions: 6,
 }, {
   name: "Flag Madness",
   modules: [
@@ -11974,8 +12042,9 @@ export const challenges: Challenge[] = [{
     "Blananas",
     "Vincology",
     "Cookiepocalypse",
+    "TwitchPlays",
   ],
-  completions: 17,
+  completions: 18,
 }, {
   name: "Flyer's Half-Baked Insanity",
   modules: [
@@ -12159,8 +12228,9 @@ export const challenges: Challenge[] = [{
     "Miki2003pl",
     "Burniel",
     "Garuda",
+    "TwitchPlays",
   ],
-  completions: 3,
+  completions: 4,
 }, {
   name: "Food Madness",
   modules: [
@@ -12360,8 +12430,9 @@ export const challenges: Challenge[] = [{
     "Cookiepocalypse",
     "KittyAshy",
     "Diffuse",
+    "TwitchPlays",
   ],
-  completions: 5,
+  completions: 6,
 }, {
   name: "Forty-Blevins",
   modules: [
@@ -12847,8 +12918,10 @@ export const challenges: Challenge[] = [{
     "LegendWilleh",
     "Edan",
     "Crazycaleb",
+    "ManiaMate",
+    "Draket",
   ],
-  completions: 3,
+  completions: 5,
 }, {
   name: "Gamble",
   modules: [
@@ -12923,8 +12996,9 @@ export const challenges: Challenge[] = [{
     "Cookiepocalypse",
     "Chestnut",
     "Burniel",
+    "TwitchPlays",
   ],
-  completions: 15,
+  completions: 16,
 }, {
   name: "Gemini",
   modules: [
@@ -13006,8 +13080,9 @@ export const challenges: Challenge[] = [{
     "ManiaMate",
     "Dicey",
     "Garuda",
+    "TwitchPlays",
   ],
-  completions: 4,
+  completions: 5,
 }, {
   name: "Genevargas",
   modules: [
@@ -13087,8 +13162,9 @@ export const challenges: Challenge[] = [{
     "SillyPuppy",
     "Fish",
     "Rexkix",
+    "TwitchPlays",
   ],
-  completions: 7,
+  completions: 8,
 }, {
   name: "Geometer's Paradise",
   modules: [
@@ -13175,8 +13251,9 @@ export const challenges: Challenge[] = [{
     "Zefod",
     "Edan",
     "ManiaMate",
+    "TwitchPlays",
   ],
-  completions: 4,
+  completions: 5,
 }, {
   name: "Global Thermonuclear War",
   modules: [
@@ -13510,8 +13587,9 @@ export const challenges: Challenge[] = [{
     "ManiaMate",
     "Edan",
     "Zefod",
+    "TwitchPlays",
   ],
-  completions: 4,
+  completions: 5,
 }, {
   name: "Goodbye to a World",
   modules: [
@@ -13565,8 +13643,11 @@ export const challenges: Challenge[] = [{
     "xmorse",
     "lgndZoni",
   ],
-  completers: ["Edan"],
-  completions: 1,
+  completers: [
+    "Edan",
+    "TwitchPlays",
+  ],
+  completions: 2,
 }, {
   name: "Gotta Be Fast",
   modules: [
@@ -13591,8 +13672,9 @@ export const challenges: Challenge[] = [{
     "Deaf",
     "Fish",
     "Wheaty",
+    "TwitchPlays",
   ],
-  completions: 6,
+  completions: 7,
 }, {
   name: "Grammaphobia",
   modules: [
@@ -13741,8 +13823,9 @@ export const challenges: Challenge[] = [{
     "Wheaty",
     "MageMage",
     "Whalien",
+    "TwitchPlays",
   ],
-  completions: 8,
+  completions: 9,
 }, {
   name: "TGB's Endurance Challenge",
   modules: [
@@ -15102,8 +15185,9 @@ export const challenges: Challenge[] = [{
     "Benjamin",
     "Tepel",
     "Nomoreeromon",
+    "TwitchPlays",
   ],
-  completions: 20,
+  completions: 21,
 }, {
   name: "I Like These Modules",
   modules: [
@@ -15242,8 +15326,9 @@ export const challenges: Challenge[] = [{
     "Burniel",
     "ManiaMate",
     "Ugh_Sunlight",
+    "TwitchPlays",
   ],
-  completions: 15,
+  completions: 16,
 }, {
   name: "If You Solve This Bomb Benjamin Franklin Is Canon In AWA",
   modules: [
@@ -15454,8 +15539,9 @@ export const challenges: Challenge[] = [{
     "OEGamer",
     "JMan Zx",
     "Sam Porter Bridges",
+    "TwitchPlays",
   ],
-  completions: 12,
+  completions: 13,
 }, {
   name: "Interactive Hell",
   modules: [
@@ -15545,8 +15631,9 @@ export const challenges: Challenge[] = [{
     "Zefod",
     "Burniel",
     "Edan",
+    "TwitchPlays",
   ],
-  completions: 1,
+  completions: 2,
 }, {
   name: "Into the Night",
   modules: [
@@ -16382,8 +16469,9 @@ export const challenges: Challenge[] = [{
     "aGood_Usernam3",
     "TasThing",
     "Garuda",
+    "TwitchPlays",
   ],
-  completions: 51,
+  completions: 52,
 }, {
   name: "KTANE: The Movie: The Book: The Ride",
   modules: [
@@ -16656,8 +16744,9 @@ export const challenges: Challenge[] = [{
     "Fish",
     "aGood_Usernam3",
     "Danny",
+    "TwitchPlays",
   ],
-  completions: 6,
+  completions: 7,
 }, {
   name: "Kwaninator",
   modules: [
@@ -16735,8 +16824,9 @@ export const challenges: Challenge[] = [{
     "Zefod",
     "Draket",
     "SillyPuppy",
+    "TwitchPlays",
   ],
-  completions: 1,
+  completions: 2,
 }, {
   name: "La Vie Est Drole",
   modules: [
@@ -16854,8 +16944,9 @@ export const challenges: Challenge[] = [{
   completers: [
     "aGood_Usernam3",
     "LegendWilleh",
+    "TwitchPlays",
   ],
-  completions: 2,
+  completions: 3,
 }, {
   name: "Level 96",
   modules: [
@@ -16929,8 +17020,9 @@ export const challenges: Challenge[] = [{
     "Crazycaleb",
     "Garuda",
     "Procyon",
+    "TwitchPlays",
   ],
-  completions: 2,
+  completions: 3,
 }, {
   name: "Light in the Dark",
   modules: [
@@ -17312,8 +17404,9 @@ export const challenges: Challenge[] = [{
     "Draket",
     "ManiaMate",
     "Burniel",
+    "TwitchPlays",
   ],
-  completions: 5,
+  completions: 6,
 }, {
   name: "Little Difficult",
   modules: [
@@ -17465,8 +17558,9 @@ export const challenges: Challenge[] = [{
     "Crazycaleb",
     "Asmir",
     "ManiaMate",
+    "TwitchPlays",
   ],
-  completions: 6,
+  completions: 7,
 }, {
   name: "Logic Madness",
   modules: [
@@ -17628,7 +17722,7 @@ export const challenges: Challenge[] = [{
     "Burniel",
     "Garuda",
   ],
-  completions: 10,
+  completions: 11,
 }, {
   name: "Lost In Many Mazes 2nd Edition",
   modules: [
@@ -17807,8 +17901,13 @@ export const challenges: Challenge[] = [{
     "TwoBits",
     "PartyTime",
   ],
-  completers: [],
-  completions: 0,
+  completers: [
+    "Zefod",
+    "Deaf",
+    "Fish",
+    "TwitchPlays",
+  ],
+  completions: 2,
 }, {
   name: "MIB: Moved to Back",
   modules: [
@@ -17885,8 +17984,9 @@ export const challenges: Challenge[] = [{
     "Puddle",
     "Xorote",
     "LegendWilleh",
+    "TwitchPlays",
   ],
-  completions: 2,
+  completions: 3,
 }, {
   name: "Mad Defuser",
   modules: [
@@ -18261,8 +18361,9 @@ export const challenges: Challenge[] = [{
     "Garuda",
     "Cookiepocalypse",
     "Fish",
+    "TwitchPlays",
   ],
-  completions: 4,
+  completions: 5,
 }, {
   name: "Master EFM",
   modules: [
@@ -18400,8 +18501,9 @@ export const challenges: Challenge[] = [{
     "Ulv",
     "Puddle",
     "Garuda",
+    "TwitchPlays",
   ],
-  completions: 17,
+  completions: 18,
 }, {
   name: "Maze Madness",
   modules: [
@@ -18571,8 +18673,9 @@ export const challenges: Challenge[] = [{
     "Draket",
     "Fish",
     "Zefod",
+    "TwitchPlays",
   ],
-  completions: 2,
+  completions: 3,
 }, {
   name: "The Metamorphoses",
   modules: [
@@ -18628,8 +18731,9 @@ export const challenges: Challenge[] = [{
     "Draket",
     "Cookiepocalypse",
     "Garuda",
+    "TwitchPlays",
   ],
-  completions: 1,
+  completions: 2,
 }, {
   name: "Meth",
   modules: [
@@ -18953,8 +19057,9 @@ export const challenges: Challenge[] = [{
     "Asmir",
     "Burniel",
     "Chestnut",
+    "TwitchPlays",
   ],
-  completions: 11,
+  completions: 12,
 }, {
   name: "Modules I Don't Know",
   modules: [
@@ -19450,8 +19555,11 @@ export const challenges: Challenge[] = [{
     "qkForgetPerspective",
     "alphaBits",
   ],
-  completers: ["LegendWilleh"],
-  completions: 1,
+  completers: [
+    "LegendWilleh",
+    "TwitchPlays",
+  ],
+  completions: 2,
 }, {
   name: "Nemopack",
   modules: [
@@ -19736,8 +19844,9 @@ export const challenges: Challenge[] = [{
     "Burniel",
     "Draket",
     "VFlyer",
+    "TwitchPlays",
   ],
-  completions: 13,
+  completions: 14,
 }, {
   name: "Nicoturion",
   modules: [
@@ -20114,8 +20223,9 @@ export const challenges: Challenge[] = [{
     "Deaf",
     "Blananas",
     "Fish",
+    "TwitchPlays",
   ],
-  completions: 3,
+  completions: 4,
 }, {
   name: "Nostalgia Critic",
   modules: [
@@ -20256,8 +20366,11 @@ export const challenges: Challenge[] = [{
     "wireSpaghetti",
     "horribleMemory",
   ],
-  completers: ["Draket"],
-  completions: 1,
+  completers: [
+    "Draket",
+    "TwitchPlays",
+  ],
+  completions: 2,
 }, {
   name: "Nothing To Spare: ACAB",
   modules: [
@@ -20439,8 +20552,10 @@ export const challenges: Challenge[] = [{
     "GreenPower",
     "Guck",
     "Lucco",
+    "VFlyer",
+    "TwitchPlays",
   ],
-  completions: 39,
+  completions: 41,
 }, {
   name: "Nothing To Spare",
   modules: [
@@ -20534,8 +20649,9 @@ export const challenges: Challenge[] = [{
     "Nomoreeromon",
     "Fish",
     "aGood_Usernam3",
+    "TwitchPlays",
   ],
-  completions: 56,
+  completions: 57,
 }, {
   name: "Nothing to Spare: EC",
   modules: [
@@ -20860,8 +20976,9 @@ export const challenges: Challenge[] = [{
     "Edan",
     "Zefod",
     "ManiaMate",
+    "TwitchPlays",
   ],
-  completions: 6,
+  completions: 7,
 }, {
   name: "Odyssey",
   modules: [
@@ -20913,8 +21030,11 @@ export const challenges: Challenge[] = [{
     "theSamsung",
     "roger",
   ],
-  completers: ["Asew"],
-  completions: 1,
+  completers: [
+    "Asew",
+    "TwitchPlays",
+  ],
+  completions: 2,
 }, {
   name: "Olievenhoutbosch",
   modules: [
@@ -21187,8 +21307,9 @@ export const challenges: Challenge[] = [{
   completers: [
     "LegendWilleh",
     "aGood_Usernam3",
+    "TwitchPlays",
   ],
-  completions: 2,
+  completions: 3,
 }, {
   name: "One Iconic Army",
   modules: [
@@ -21404,8 +21525,9 @@ export const challenges: Challenge[] = [{
     "Fish",
     "aGood_Username3",
     "Danny",
+    "TwitchPlays",
   ],
-  completions: 8,
+  completions: 9,
 }, {
   name: "One Tells The Truth",
   modules: [
@@ -21973,8 +22095,9 @@ export const challenges: Challenge[] = [{
     "ManiaMate",
     "KittyAshy",
     "et al.",
+    "TwitchPlays",
   ],
-  completions: 5,
+  completions: 6,
 }, {
   name: "One-Souvenir Army",
   modules: [
@@ -22085,8 +22208,9 @@ export const challenges: Challenge[] = [{
     "Blananas",
     "Fish",
     "ManiaMate",
+    "TwitchPlays",
   ],
-  completions: 14,
+  completions: 15,
 }, {
   name: "Oompa Loompa Boon Poppycock",
   modules: [
@@ -22252,8 +22376,11 @@ export const challenges: Challenge[] = [{
     "combinationLock",
     "Emoji Math",
   ],
-  completers: ["LegendWilleh"],
-  completions: 1,
+  completers: [
+    "LegendWilleh",
+    "TwitchPlays",
+  ],
+  completions: 2,
 }, {
   name: "Order of Chaos",
   modules: [
@@ -22381,8 +22508,9 @@ export const challenges: Challenge[] = [{
     "Fish",
     "Bianca",
     "Benjamin",
+    "TwitchPlays",
   ],
-  completions: 16,
+  completions: 17,
 }, {
   name: "Ordovician",
   modules: [
@@ -22550,8 +22678,9 @@ export const challenges: Challenge[] = [{
     "Edan",
     "ManiaMate",
     "LegendWilleh",
+    "TwitchPlays",
   ],
-  completions: 3,
+  completions: 4,
 }, {
   name: "Ornithala",
   modules: [
@@ -22886,8 +23015,9 @@ export const challenges: Challenge[] = [{
     "ManiaMate",
     "Senri",
     "Zefod",
+    "TwitchPlays",
   ],
-  completions: 10,
+  completions: 11,
 }, {
   name: "Parallel Bombs",
   modules: [
@@ -22970,8 +23100,9 @@ export const challenges: Challenge[] = [{
     "Cookiepocalypse",
     "Garuda",
     "Millie-Rose",
+    "TwitchPlays",
   ],
-  completions: 12,
+  completions: 13,
 }, {
   name: "Password Madness",
   modules: [
@@ -23071,8 +23202,9 @@ export const challenges: Challenge[] = [{
   completers: [
     "LegendWilleh",
     "Cookiepocalypse",
+    "TwitchPlays",
   ],
-  completions: 2,
+  completions: 3,
 }, {
   name: "Pink",
   modules: [
@@ -23107,8 +23239,9 @@ export const challenges: Challenge[] = [{
     "aGood_Username3",
     "Zefod",
     "Ulv",
+    "TwitchPlays",
   ],
-  completions: 13,
+  completions: 14,
 }, {
   name: "Planning Is Everything",
   modules: [
@@ -23256,8 +23389,9 @@ export const challenges: Challenge[] = [{
     "Dicey",
     "Azzaman",
     "FcbdaBoss",
+    "TwitchPlays",
   ],
-  completions: 11,
+  completions: 12,
 }, {
   name: "Plinge.",
   modules: [
@@ -23411,8 +23545,9 @@ export const challenges: Challenge[] = [{
     "aGood_Usernam3",
     "Fish",
     "Chestnut",
+    "TwitchPlays",
   ],
-  completions: 19,
+  completions: 20,
 }, {
   name: "Pond",
   modules: [
@@ -23508,8 +23643,9 @@ export const challenges: Challenge[] = [{
     "Azzaman",
     "FcbdaBoss",
     "Obvious",
+    "TwitchPlays",
   ],
-  completions: 29,
+  completions: 30,
 }, {
   name: "Possibly Impossible: Ultra Deluxe Edition",
   modules: ["metamem"],
@@ -23637,8 +23773,9 @@ export const challenges: Challenge[] = [{
     "Vincology",
     "Megum",
     "Garuda",
+    "TwitchPlays",
   ],
-  completions: 20,
+  completions: 22,
 }, {
   name: "Praetorian",
   modules: [
@@ -23833,8 +23970,9 @@ export const challenges: Challenge[] = [{
     "Skyeward",
     "Rexkix",
     "SillyPuppy",
+    "TwitchPlays",
   ],
-  completions: 15,
+  completions: 16,
 }, {
   name: "Pre-Gunk",
   modules: [
@@ -24443,8 +24581,9 @@ export const challenges: Challenge[] = [{
     "Benjamin",
     "Burniel",
     "Megum",
+    "TwitchPlays",
   ],
-  completions: 16,
+  completions: 17,
 }, {
   name: "The Quibi",
   modules: [
@@ -24811,8 +24950,9 @@ export const challenges: Challenge[] = [{
     "Deaf",
     "bioplay",
     "Fish",
+    "TwitchPlays",
   ],
-  completions: 5,
+  completions: 6,
 }, {
   name: "Quickly Now!: No Time For Reads!",
   modules: [
@@ -25011,8 +25151,9 @@ export const challenges: Challenge[] = [{
     "Burniel",
     "Zefod",
     "ManiaMate",
+    "TwitchPlays",
   ],
-  completions: 27,
+  completions: 28,
 }, {
   name: "Quickly Now!: Save Muhammad!",
   modules: [
@@ -25081,8 +25222,9 @@ export const challenges: Challenge[] = [{
     "MrPeanut",
     "Kavinkul",
     "Garuda",
+    "TwitchPlays",
   ],
-  completions: 10,
+  completions: 11,
 }, {
   name: "Quickly Now!: Skilly Issue!",
   modules: [
@@ -25336,8 +25478,9 @@ export const challenges: Challenge[] = [{
     "Edan",
     "ManiaMate",
     "Megum",
+    "TwitchPlays",
   ],
-  completions: 3,
+  completions: 4,
 }, {
   name: "Quintessence",
   modules: [
@@ -25698,8 +25841,9 @@ export const challenges: Challenge[] = [{
     "Zefod",
     "Edan",
     "ManiaMate",
+    "TwitchPlays",
   ],
-  completions: 2,
+  completions: 3,
 }, {
   name: "Reaper",
   modules: [
@@ -25830,8 +25974,9 @@ export const challenges: Challenge[] = [{
     "Želvík",
     "Asmir",
     "DieBestenRutschen",
+    "TwitchPlays",
   ],
-  completions: 5,
+  completions: 6,
 }, {
   name: "Reasonable",
   modules: [
@@ -25890,8 +26035,9 @@ export const challenges: Challenge[] = [{
     "Garuda",
     "Fish",
     "Ugh_Sunlight",
+    "TwitchPlays",
   ],
-  completions: 6,
+  completions: 7,
 }, {
   name: "Rebellion on Color God",
   modules: [
@@ -25981,8 +26127,9 @@ export const challenges: Challenge[] = [{
     "OEGamer",
     "Garuda",
     "GiveMeHeals",
+    "TwitchPlays",
   ],
-  completions: 8,
+  completions: 9,
 }, {
   name: "Recursive Recursion",
   modules: [
@@ -26390,8 +26537,9 @@ export const challenges: Challenge[] = [{
     "Bagels",
     "Quinn Wuest",
     "Puddle",
+    "TwitchPlays",
   ],
-  completions: 17,
+  completions: 18,
 }, {
   name: "Rendezvous (Pt. 3)",
   modules: [
@@ -26482,8 +26630,9 @@ export const challenges: Challenge[] = [{
     "Espik",
     "Fish",
     "Garuda",
+    "TwitchPlays",
   ],
-  completions: 5,
+  completions: 6,
 }, {
   name: "Requiem",
   modules: [
@@ -26711,8 +26860,9 @@ export const challenges: Challenge[] = [{
     "ManiaMate",
     "Burniel",
     "LegendWilleh",
+    "TwitchPlays",
   ],
-  completions: 11,
+  completions: 12,
 }, {
   name: "Riptide",
   modules: [
@@ -26799,8 +26949,12 @@ export const challenges: Challenge[] = [{
     "Rexkix",
     "Garuda",
     "SillyPuppy",
+    "StKildaFan",
+    "Procyon",
+    "Zefod",
+    "TwitchPlays",
   ],
-  completions: 16,
+  completions: 19,
 }, {
   name: "Ruby's Favourite 47",
   modules: [
@@ -26852,8 +27006,11 @@ export const challenges: Challenge[] = [{
     "RPSJudging",
     "forgetMazeNot",
   ],
-  completers: ["Miki2003pl"],
-  completions: 1,
+  completers: [
+    "Miki2003pl",
+    "TwitchPlays",
+  ],
+  completions: 2,
 }, {
   name: "Rulebender",
   modules: [
@@ -27082,8 +27239,9 @@ export const challenges: Challenge[] = [{
     "Edan",
     "Arceus",
     "Crazycaleb",
+    "TwitchPlays",
   ],
-  completions: 9,
+  completions: 10,
 }, {
   name: "Sanguine Arpeggio",
   modules: [
@@ -27288,8 +27446,9 @@ export const challenges: Challenge[] = [{
     "Deaf",
     "Fish",
     "MrPeanut",
+    "TwitchPlays",
   ],
-  completions: 3,
+  completions: 4,
 }, {
   name: "Second Riptide",
   modules: [
@@ -27366,8 +27525,9 @@ export const challenges: Challenge[] = [{
     "SillyPuppy",
     "Draket",
     "Rexkix",
+    "TwitchPlays",
   ],
-  completions: 6,
+  completions: 7,
 }, {
   name: "Seedfarm",
   modules: [
@@ -27437,8 +27597,9 @@ export const challenges: Challenge[] = [{
     "GreenPower",
     "Danny",
     "Fish",
+    "TwitchPlays",
   ],
-  completions: 13,
+  completions: 14,
 }, {
   name: "Seifar T.C. Reservation",
   modules: [
@@ -27486,7 +27647,7 @@ export const challenges: Challenge[] = [{
     "Fish",
     "VFlyer",
   ],
-  completions: 30,
+  completions: 31,
 }, {
   name: "Sending Charlie",
   modules: [
@@ -28089,8 +28250,9 @@ export const challenges: Challenge[] = [{
     "Xorote",
     "Burniel",
     "Chestnut",
+    "TwitchPlays",
   ],
-  completions: 10,
+  completions: 11,
 }, {
   name: "Silent",
   modules: [
@@ -28182,8 +28344,9 @@ export const challenges: Challenge[] = [{
     "StKildaFan",
     "Procyon",
     "Blananas",
+    "TwitchPlays",
   ],
-  completions: 22,
+  completions: 23,
 }, {
   name: "Simp Thoughts, Comp Measures",
   modules: [
@@ -28246,8 +28409,9 @@ export const challenges: Challenge[] = [{
     "Zefod",
     "Deaf",
     "Draket",
+    "TwitchPlays",
   ],
-  completions: 5,
+  completions: 6,
 }, {
   name: "Simon Sends (You to Hell)",
   modules: [
@@ -28279,8 +28443,9 @@ export const challenges: Challenge[] = [{
     "Miki2003pl",
     "Puddle",
     "LegendWilleh",
+    "TwitchPlays",
   ],
-  completions: 3,
+  completions: 4,
 }, {
   name: "Simplifier",
   modules: [
@@ -28421,8 +28586,9 @@ export const challenges: Challenge[] = [{
     "Tathra",
     "StormBlessed",
     "StormClimber",
+    "TwitchPlays",
   ],
-  completions: 57,
+  completions: 58,
 }, {
   name: "Sink or Swim",
   modules: [
@@ -28531,8 +28697,11 @@ export const challenges: Challenge[] = [{
     "rubiksClock",
     "ShapesBombs",
   ],
-  completers: ["LegendWilleh"],
-  completions: 1,
+  completers: [
+    "LegendWilleh",
+    "TwitchPlays",
+  ],
+  completions: 2,
 }, {
   name: "Situations When Dealing With A Fast Maturing Catgirl",
   modules: [
@@ -29034,8 +29203,9 @@ export const challenges: Challenge[] = [{
     "bioplay",
     "Dicey",
     "Joh_v_Relion",
+    "TwitchPlays",
   ],
-  completions: 30,
+  completions: 31,
 }, {
   name: "Solorion",
   modules: [
@@ -29099,8 +29269,9 @@ export const challenges: Challenge[] = [{
     "Zefod",
     "Ulv",
     "Garuda",
+    "TwitchPlays",
   ],
-  completions: 11,
+  completions: 12,
 }, {
   name: "Soloturion",
   modules: [
@@ -29317,8 +29488,11 @@ export const challenges: Challenge[] = [{
     "wire",
     "YahtzeeModule",
   ],
-  completers: ["Megum"],
-  completions: 1,
+  completers: [
+    "Megum",
+    "TwitchPlays",
+  ],
+  completions: 2,
 }, {
   name: "Space Calmness",
   modules: [
@@ -29457,8 +29631,9 @@ export const challenges: Challenge[] = [{
     "Bianca",
     "Masquélite",
     "Crazycaleb",
+    "TwitchPlays",
   ],
-  completions: 15,
+  completions: 16,
 }, {
   name: "Speeding: Lap 2",
   modules: [
@@ -29523,8 +29698,9 @@ export const challenges: Challenge[] = [{
     "Zefod",
     "Deaf",
     "Fish",
+    "TwitchPlays",
   ],
-  completions: 8,
+  completions: 9,
 }, {
   name: "Squares of Division",
   modules: [
@@ -29589,8 +29765,9 @@ export const challenges: Challenge[] = [{
     "Wheaty",
     "Copperkettle",
     "MageMage",
+    "TwitchPlays",
   ],
-  completions: 18,
+  completions: 19,
 }, {
   name: "Step Up",
   modules: [
@@ -29724,8 +29901,9 @@ export const challenges: Challenge[] = [{
     "Danielstigman",
     "Miki2003pl",
     "Xorote",
+    "TwitchPlays",
   ],
-  completions: 1,
+  completions: 2,
 }, {
   name: "Storm Before The Climb x3",
   modules: [
@@ -29975,8 +30153,9 @@ export const challenges: Challenge[] = [{
     "Zefod",
     "Crazycaleb",
     "ManiaMate",
+    "TwitchPlays",
   ],
-  completions: 6,
+  completions: 7,
 }, {
   name: "Submersion III",
   modules: [
@@ -30046,8 +30225,9 @@ export const challenges: Challenge[] = [{
     "Edan",
     "ManiaMate",
     "LegendWilleh",
+    "TwitchPlays",
   ],
-  completions: 3,
+  completions: 4,
 }, {
   name: "Submersion",
   modules: [
@@ -30314,8 +30494,9 @@ export const challenges: Challenge[] = [{
     "Crazycaleb",
     "Benjamin",
     "Bianca",
+    "TwitchPlays",
   ],
-  completions: 16,
+  completions: 17,
 }, {
   name: "Sweet 16",
   modules: [
@@ -30399,8 +30580,9 @@ export const challenges: Challenge[] = [{
     "Garuda",
     "Diffuse",
     "RandomKugelblitz",
+    "TwitchPlays",
   ],
-  completions: 22,
+  completions: 23,
 }, {
   name: "Switch Madness",
   modules: [
@@ -30683,8 +30865,9 @@ export const challenges: Challenge[] = [{
     "Benjamin",
     "Bianca",
     "Burniel",
+    "TwitchPlays",
   ],
-  completions: 1,
+  completions: 2,
 }, {
   name: "Taurus",
   modules: [
@@ -31333,8 +31516,9 @@ export const challenges: Challenge[] = [{
     "Burniel",
     "Chestnut",
     "Fish",
+    "TwitchPlays",
   ],
-  completions: 4,
+  completions: 5,
 }, {
   name: "Tidal Wave",
   modules: [
@@ -31752,8 +31936,9 @@ export const challenges: Challenge[] = [{
     "ManiaMate",
     "Draket",
     "Burniel",
+    "TwitchPlays",
   ],
-  completions: 6,
+  completions: 7,
 }, {
   name: "Triblribryune",
   modules: [
@@ -31890,8 +32075,9 @@ export const challenges: Challenge[] = [{
     "Edan",
     "ManiaMate",
     "Draket",
+    "TwitchPlays",
   ],
-  completions: 2,
+  completions: 3,
 }, {
   name: "Tricycle",
   modules: [
@@ -32087,8 +32273,10 @@ export const challenges: Challenge[] = [{
     "Burniel",
     "Edan",
     "LegendWilleh",
+    "TwitchPlays",
+    "ManiaMate",
   ],
-  completions: 2,
+  completions: 4,
 }, {
   name: "True Alphabet",
   modules: [
@@ -32248,8 +32436,9 @@ export const challenges: Challenge[] = [{
     "Bianca",
     "Benjamin",
     "Burniel",
+    "TwitchPlays",
   ],
-  completions: 7,
+  completions: 8,
 }, {
   name: "Tsunami",
   modules: [
@@ -32371,8 +32560,9 @@ export const challenges: Challenge[] = [{
     "Dicey",
     "Burniel",
     "Garuda",
+    "TwitchPlays",
   ],
-  completions: 4,
+  completions: 5,
 }, {
   name: "Tsundere",
   modules: [
@@ -32529,8 +32719,9 @@ export const challenges: Challenge[] = [{
     "Zefod",
     "Burniel",
     "Edan",
+    "TwitchPlays",
   ],
-  completions: 2,
+  completions: 3,
 }, {
   name: "Turion",
   modules: [
@@ -33096,8 +33287,9 @@ export const challenges: Challenge[] = [{
   completers: [
     "aGood_Usernam3",
     "Xorote",
+    "TwitchPlays",
   ],
-  completions: 2,
+  completions: 3,
 }, {
   name: "Unforgetful and Forgetful",
   modules: [
@@ -33328,7 +33520,7 @@ export const challenges: Challenge[] = [{
     "Dicey",
     "Lone",
   ],
-  completions: 4,
+  completions: 6,
 }, {
   name: "Unreasonable Affinities",
   modules: [
@@ -33465,8 +33657,9 @@ export const challenges: Challenge[] = [{
     "Danielstigman",
     "aGood_Usernam3",
     "Miki2003pl",
+    "TwitchPlays",
   ],
-  completions: 2,
+  completions: 3,
 }, {
   name: "Verge of Insanity",
   modules: [
@@ -33804,8 +33997,9 @@ export const challenges: Challenge[] = [{
     "Burniel",
     "Edan",
     "LegendWilleh",
+    "TwitchPlays",
   ],
-  completions: 2,
+  completions: 3,
 }, {
   name: "Warrior",
   modules: [
@@ -34581,8 +34775,9 @@ export const challenges: Challenge[] = [{
     "Ulv",
     "JMan Zx",
     "Sam Porter Bridges",
+    "TwitchPlays",
   ],
-  completions: 10,
+  completions: 11,
 }, {
   name: "Winners Don't Use Spaces",
   modules: [
@@ -34693,8 +34888,9 @@ export const challenges: Challenge[] = [{
   completers: [
     "Draket",
     "Crazycaleb",
+    "TwitchPlays",
   ],
-  completions: 2,
+  completions: 3,
 }, {
   name: "Wire Madness",
   modules: [
@@ -34836,7 +35032,7 @@ export const challenges: Challenge[] = [{
     "Lucco",
     "GoldenSapphyr",
   ],
-  completions: 29,
+  completions: 30,
 }, {
   name: "Woodsievous",
   modules: [
@@ -34897,8 +35093,9 @@ export const challenges: Challenge[] = [{
     "Deaf",
     "aGood_Usernam3",
     "Fish",
+    "TwitchPlays",
   ],
-  completions: 4,
+  completions: 5,
 }, {
   name: "XP4 Collaborations Project",
   modules: [
@@ -35202,8 +35399,11 @@ export const challenges: Challenge[] = [{
     "sevenDeadlySins",
     "bamboozlingButton",
   ],
-  completers: ["ManiaMate"],
-  completions: 1,
+  completers: [
+    "ManiaMate",
+    "TwitchPlays",
+  ],
+  completions: 2,
 }, {
   name: "Ye (==(",
   modules: [
@@ -35581,8 +35781,9 @@ export const challenges: Challenge[] = [{
     "Crazycaleb",
     "Rexkix",
     "Edan",
+    "TwitchPlays",
   ],
-  completions: 7,
+  completions: 8,
 }, {
   name: "[]/\O",
   modules: [
@@ -35649,8 +35850,9 @@ export const challenges: Challenge[] = [{
   completers: [
     "LegendWilleh",
     "Dicey",
+    "TwitchPlays",
   ],
-  completions: 2,
+  completions: 3,
 }, {
   name: ":((= Mk. =(",
   modules: [
@@ -35853,8 +36055,9 @@ export const challenges: Challenge[] = [{
     "StormBlessed",
     "DieBestenRutschen",
     "Emitoz",
+    "TwitchPlays",
   ],
-  completions: 56,
+  completions: 57,
 }, {
   name: "Not Centurion",
   modules: [
@@ -35972,8 +36175,11 @@ export const challenges: Challenge[] = [{
     "NotWireSequence",
     "NotWiresword",
   ],
-  completers: ["Espik"],
-  completions: 1,
+  completers: [
+    "Espik",
+    "TwitchPlays",
+  ],
+  completions: 2,
 }, {
   name: "asdfghjkl",
   modules: [
@@ -36221,8 +36427,9 @@ export const challenges: Challenge[] = [{
     "Asew",
     "BlvdBroken",
     "Orinami",
+    "TwitchPlays",
   ],
-  completions: 4,
+  completions: 5,
 }, {
   name: "mynutshang7972981890554",
   modules: [
@@ -36290,8 +36497,9 @@ export const challenges: Challenge[] = [{
     "Cookiepocalypse",
     "GiveMeHeals",
     "Asew",
+    "TwitchPlays",
   ],
-  completions: 13,
+  completions: 14,
 }, {
   name: "Übercharge",
   modules: [
@@ -36372,8 +36580,9 @@ export const challenges: Challenge[] = [{
     "Draket",
     "Garuda",
     "LegendWilleh",
+    "TwitchPlays",
   ],
-  completions: 2,
+  completions: 3,
 }, {
   name: "🤔",
   modules: [
