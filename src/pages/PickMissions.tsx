@@ -72,7 +72,7 @@ export const PickMissionsPage: React.FC = () => {
             <tr key={m.name}>
               <td>{m.name}</td>
               <td>{(100 - (m.missedModules.length / m.modules.length * 100)).toFixed(2)}%</td>
-              <td>{m.missedModules.map((mId) => (<div key={mId}>{allModulesState[mId].Name}</div>))}</td>
+              <td>{m.missedModules.map((mId) => (<div key={mId}>{allModulesState[mId]?.Name ?? mId}</div>))}</td>
               <td>{m.completers.length} / {m.completions}</td>
             </tr>
           ))}
