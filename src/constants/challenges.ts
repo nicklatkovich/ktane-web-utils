@@ -40521,7 +40521,7 @@ export const challenges: Challenge[] = [{
   ],
   completions: 9,
 }, {
-  name: "[]/\O",
+  name: "[]/\\O",
   modules: [
     "clippingTriangles",
     "drippingTriangles",
