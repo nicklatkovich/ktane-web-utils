@@ -8,5 +8,6 @@ export const HomePage: React.FC = () => {
     <Link to="/pick-modules" className="button">Pick Modules To Learn Today</Link>
     <Link to="/pick-missions" className="button">Find Challenge</Link>
     <Link to="/mod-settings" className="button">modSettings.xml</Link>
+    <Link to="/profile-mod-collection" className="button">Profile Mod Collection</Link>
   </div>;
 };

@@ -11,6 +11,7 @@ import { ModSettingsPage } from "./pages/ModSettings";
 import { PickModulesPage } from "./pages/PickModules";
 import { useAppDispatch, useAppSelector } from "./store";
 import { PickMissionsPage } from "./pages/PickMissions";
+import { ProfileModCollection } from "./pages/ProfileModCollection";
 
 export const AppComponent: React.FC = () => {
   const repoStatus = useAppSelector(repoSelectors.getStatus);
@@ -41,6 +42,7 @@ export const AppComponent: React.FC = () => {
         <Route path="/mod-settings" element={<ModSettingsPage />} />
         <Route path="/pick-missions" element={<PickMissionsPage />} />
         <Route path="/pick-modules" element={<PickModulesPage />} />
+        <Route path="/profile-mod-collection" element={<ProfileModCollection />} />
         <Route path="*" element={<div>(Not Found)</div>} />
       </Routes>
     </div>
