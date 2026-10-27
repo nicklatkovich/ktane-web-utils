@@ -12,6 +12,7 @@ import { PickModulesPage } from "./pages/PickModules";
 import { useAppDispatch, useAppSelector } from "./store";
 import { PickMissionsPage } from "./pages/PickMissions";
 import { ProfileModCollection } from "./pages/ProfileModCollection";
+import { XorDecoderPage } from "./pages/XorDecoder";
 
 export const AppComponent: React.FC = () => {
   const repoStatus = useAppSelector(repoSelectors.getStatus);
@@ -28,14 +29,14 @@ export const AppComponent: React.FC = () => {
         <h1>KTaNE Web Utils</h1>
       </Link>
       <div id="profile-section">
-        {profileName === undefined
-          ? <ProfileUploader />
-          : (
-            <div id="profile-header">
-              Profile: {profileName} ({modulesCount} modules)
-              <button onClick={() => dispatch(profileActions.forget())}>reset</button>
-            </div>
-          )}
+        {profileName === undefined ? (
+          <ProfileUploader />
+        ) : (
+          <div id="profile-header">
+            Profile: {profileName} ({modulesCount} modules)
+            <button onClick={() => dispatch(profileActions.forget())}>reset</button>
+          </div>
+        )}
       </div>
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -43,6 +44,7 @@ export const AppComponent: React.FC = () => {
         <Route path="/pick-missions" element={<PickMissionsPage />} />
         <Route path="/pick-modules" element={<PickModulesPage />} />
         <Route path="/profile-mod-collection" element={<ProfileModCollection />} />
+        <Route path="/xor-decoder" element={<XorDecoderPage />} />
         <Route path="*" element={<div>(Not Found)</div>} />
       </Routes>
     </div>
